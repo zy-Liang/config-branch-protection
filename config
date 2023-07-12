@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Push current branch to remote branch with the same name
-git config --local push.default simple
+git config --local push.default current
 
 # Disable push to main, master & develop
 git config --local branch.main.pushRemote no_push
